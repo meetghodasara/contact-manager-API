@@ -3,6 +3,7 @@
 
 const getContacts = (req, res) => {
   res.json({ message: "The server is perfectly working.. " });
+  
 };
 
 const createContact = (req, res) => {
