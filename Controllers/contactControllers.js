@@ -9,7 +9,9 @@ const createContact = (req , res) =>{
 
 }
 
-const getContact = (req , res) =>{
+const getContacts = (req, res) => {
+  res.json({ message: "The server is perfectly working.. " });
+};
 
 }
 
